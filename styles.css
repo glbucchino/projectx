@@ -1,0 +1,541 @@
+body {
+    margin: 0px;
+    position: absolute;
+    font-family: "Campton", sans-serif;
+    font-size: 100%;
+    font-weight: lighter;
+    letter-spacing: 0.063em;
+    line-height: 150%;
+}
+
+
+
+
+/* navigation bar */
+
+header {
+    width: 100%;
+    padding: 20px 0px;
+    position: fixed;
+    z-index: 9999;
+    background: #FFFFFF;
+}
+
+#navigation {
+    display: grid;
+    width: 90%;
+    margin: 0px auto;
+    grid-template-rows: 1fr;
+    grid-template-columns: 4fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+h1 {
+    font-family:  "Prata", serif;
+    font-weight: 100;
+    font-size: 225%;
+    letter-spacing: .05em;
+}
+
+p.nav {
+    font-family: "Prata", serif;
+    font-weight: 100;
+    font-size: 100%;
+    letter-spacing: .094em;
+    text-align: right;
+    margin-top: 28px;
+}
+
+div.w3-dropdown-click {
+    display: none;
+}
+
+
+
+
+/* opening photo with cigar */
+
+#opener {
+    width: 90%;
+    margin: 0px auto;
+}
+
+#cigar {
+    width: 100%;
+    margin-top: 100px;
+    height: auto;
+}
+
+
+
+
+/* early years section */
+
+#early {
+    display: grid;
+    width: 75%;
+    margin: 70px auto;
+    padding-right: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+#early p.left {
+    width: 90%;
+    max-height: 260px;
+    margin-top: 30%;
+    grid-row-start: 1;
+    overflow: visible;
+}
+
+#early img.rightimg {
+    grid-row: span 3;
+    margin-left: 40px;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+/* the navy section */
+/*part one*/
+
+#ship {
+    width: 90%;
+    margin: 0px auto;
+    padding: 70px 0px;
+}
+
+img.ship {
+    width: 100%;
+    height: auto;
+}
+
+#navyblurb {
+    position: relative;
+    z-index: 1;
+    float: right;
+    margin-top: -300px;
+    margin-right: 40px;
+    width: 40%;
+    background: white;
+    padding: 20px;
+}
+
+/*part two*/
+
+#Navy2 {
+    display: grid;
+    width: 75%;
+    margin: 70px auto;
+    padding-right: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+#Navy2 p.right {
+    width: 90%;
+    max-height: 310px;
+    margin-top: 30%;
+    grid-row-start: 1;
+    overflow: visible;
+}
+
+#Navy2 img.leftimg {
+    grid-row: span 3;
+    margin-left: 40px;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+/* the car section */
+/*part one*/
+
+#monte {
+    width: 90%;
+    margin: 0px auto;
+    padding: 70px 0px;
+}
+
+img.car {
+    width: 100%;
+    height: auto;
+}
+
+#carblurb {
+    position: relative;
+    z-index: 1;
+    float: right;
+    margin-top: -300px;
+    width: 40%;
+    background: white;
+    padding: 20px;
+}
+
+/*part two*/
+
+#montevideo {
+    width: 90%;
+    margin: 70px auto;
+}
+
+video {
+    width: 100% !important;
+    height: auto !important;
+}
+
+/*part three*/
+
+#moremonte {
+    display: grid;
+    width: 75%;
+    margin: 70px auto;
+    padding-right: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+#moremonte p.right {
+    width: 90%;
+    max-height: 390px;
+    margin-top: 30%;
+    grid-row-start: 1;
+    overflow: scroll;
+}
+
+#moremonte img.leftimg {
+    grid-row: span 3;
+    margin-left: 40px;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+/* our family section */
+/*part one*/
+
+#fam {
+    width: 90%;
+    margin: 70px auto;
+}
+
+
+/*part two*/
+
+#famdetails {
+    display: grid;
+    width: 75%;
+    margin: 70px auto;
+    padding-right: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+#famdetails p.left {
+    width: 90%;
+    max-height: 280px;
+    margin-top: 30%;
+    grid-row-start: 1;
+    overflow: visible;
+}
+
+#famdetails img.rightimg {
+    grid-row: span 3;
+    margin-left: 40px;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+/*his quirks section*/
+/*part one*/
+
+#quirks {
+    width: 90%;
+    margin: 0px auto;
+    padding: 70px 0px;
+}
+
+img.workshop {
+    width: 100%;
+    height: auto;
+}
+
+#quirksblurb {
+    position: relative;
+    z-index: 1;
+    float: right;
+    margin-top: -300px;
+    width: 40%;
+    background: white;
+    padding: 20px;
+}
+
+/*part two*/
+
+#jokes {
+    width: 90%;
+    margin: 70px auto;
+}
+
+
+
+
+/*conclusion*/
+
+#conclusion {
+    display: grid;
+    width: 75%;
+    margin: 70px auto;
+    padding-right: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+#conclusion p.right {
+    width: 90%;
+    max-height: 280px;
+    margin-top: 30%;
+    grid-row-start: 1;
+    overflow: scroll;
+}
+
+#conclusion img.leftimg {
+    grid-row: span 3;
+    margin-left: 40px;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+h2.blurbtitle {
+    font-family: "Prata", serif;
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
+/* other elements */
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    color: #7cd3cc;
+}
+
+a: active {
+    color:#7cd3cc;
+}
+
+nav {
+    width: 100%;
+}
+
+
+
+@media only screen and (max-width: 1225px) {  
+    h1 {
+        font-size: 200%;
+        margin-top: 30px
+    }
+    
+    p.nav {
+        font-size: 90%;
+    }
+}
+
+@media only screen and (max-width: 1100px) {  
+    h1 {
+        font-size: 200%;
+        margin-top: 30px
+    }
+    
+    p.nav {
+        font-size: 80%;
+    }
+    
+    p.left, p.right {
+        font-size: 80%;
+        line-height: 150%;
+    }
+    
+    #moremonte p.right {
+        margin-top: 20%;
+        max-height: 400px;
+    }
+}
+
+@media only screen and (max-width: 910px) {  
+    h1 {
+        font-size: 200%;
+        margin-top: 30px
+    }
+    
+    p.nav {
+        font-size: 65%
+    }
+    
+    p.left, p.right {
+        font-size: 80%;
+    }
+    
+    #famdetails p.left {
+        margin-top: 10%;
+    }
+    
+    #moremonte p.right {
+        margin-top: 10%
+    }
+    
+    #Navy2 p.right {
+        margin-top: 10%;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 730px) {  
+    #navigation {
+        grid-template-columns: 5fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    
+    h1 {
+        padding-left: 0px;
+    }
+    p.nav {
+        display: none;
+    }
+    
+   div.w3-dropdown-click  {
+        clear: both;
+        display: block;
+        margin-left: 60px;
+        margin-top: 30px;
+    }
+    
+    #navyblurb, #carblurb, #quirksblurb {
+        font-size: 80%;
+        position: static;
+        clear: right;
+        margin-top: 0px;
+        margin-bottom: 50px;
+        width: 90%;
+    }
+    
+    #ship {
+        padding: 0px;
+    }
+    
+    #navyblurb {
+        margin-right: 0px;
+    }
+    
+    
+    #conclusion, #early, #Navy2, #famdetails, #moremonte {
+    display: grid;
+    height: 100%;
+    width: 80%;
+    margin: 70px auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+    
+    #early p.left {
+        margin: 0 auto;
+        height: 100%
+    }
+    
+    #early img.rightimg {
+        margin-left: 0;
+        margin-top: -100px;
+        margin-bottom: 100px;
+    }
+    
+    #Navy2 p.right {
+        grid-row-start: 2;
+        margin: 0 auto; 
+    }
+    
+    #Navy2 img.leftimg {
+        grid-row-start: 1;
+        margin-top: -40px;
+        margin-left: 0;
+        margin-bottom: 40px
+    }
+    
+    div#Monte {
+        padding-top: 0px;
+        margin-top: -120px
+    }
+    
+    div#moremonte {
+        margin-bottom: 0;
+    }
+    
+    #moremonte p.right {
+        margin: 0 auto;
+        padding-bottom: 50px;
+        overflow: visible;
+        grid-row-start: 1;
+        max-height: 500px;
+    }
+    
+    #moremonte img.leftimg {
+        grid-row-start: 2;
+        margin: 0;
+    }
+    
+    #fam {
+        margin: 50 auto;
+    }
+    
+    #famdetails p.left {
+        grid-row-start: 1;
+        margin: 0 auto;
+        max-height: 330px;
+    }
+    
+    #famdetails img.rightimg {
+        margin: 0 auto;
+        margin-top: -30px;
+    }
+    
+    #conclusion p.right {
+        grid-row-start: 1;
+        margin: 0 auto;
+        max-height: 200px;
+    }
+    
+    #conclusion img.leftimg {
+        margin: 0 auto;
+        margin-top: -100px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 401px) { 
+    h1 {
+        font-size: 190%
+    }
+}
+    

@@ -1,0 +1,247 @@
+body {
+    font-family: "Campton", sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    line-height: 21px;
+}
+#landing {
+    display: inline-block;
+    margin: -150px auto 0px;
+    padding: 30px 60px 10px 60px;
+    background: #FFFFFF;
+    position: fixed;
+    z-index: 999;
+}
+
+h1 {
+    font-family: "Prata", serif;
+    font-weight: 100;
+    font-size: 36px;
+    letter-spacing: 1.57px;
+    float: left;
+    padding-top: 10px;
+}
+
+p.nav {
+    font-family: "Prata", serif;
+    font-weight: 100;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    display: inline-block;
+    padding-left: 40px;
+}
+
+#nav2 {
+    float: right;
+    padding-left: 340px;
+    padding-top: 20px;
+}
+
+#opener {
+    margin-top: 150px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+img.img {
+    display: block;
+    margin: auto;
+}
+
+#Early {
+    display: inline-block;
+    padding: 70px 0px 90px 0px;
+}
+
+p.left {
+    float: left;
+    margin: 200px 10px 100px 208px;
+    width: 30%;
+}
+
+img.rightimg {
+    float: right;
+    margin: 100px 140px 100px 0px;
+}
+
+img.ship {
+    display: block;
+    position: static;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding-top: 10px;
+}
+
+#blurb {
+    position: relative;
+    float: right;
+    width: 25%;
+    margin-top: -220px;
+    padding: 10px 70px 10px 20px;
+    background: #FFFFFF;
+}
+
+h2.blurbtitle {
+    font-family: "Prata", serif;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+img.leftimg {
+    float: left;
+    margin: 170px 89px 100px 180px;
+    z-index: 2;
+}
+
+p.right {
+    float: right;
+    margin: 250px 208px 100px 10px;
+    width: 30%;
+}
+
+#Monte {
+    padding: 150px 0px 0px 0px;
+}
+
+img.car {
+    display: block;
+    position: static;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding-top: 40px;
+}
+
+#Family {
+    padding: 900px 0px;
+}
+
+img.workshop {
+    display: block;
+    position: static;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding-top: 70px;
+}
+
+/*
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    position: relative;
+    padding-top: 100px;
+}
+*/
+
+
+video {
+    padding: 100px 55px 20px 55px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    color: #1de1db;
+}
+
+a: active {
+    color: #1de1db;
+}
+
+nav {
+    width: 100%;
+}
+
+
+
+
+
+/*
+.bar {
+    background-color: #000000;
+    height: 1px;
+    width: 145px;
+    border: 0.5pt solid black;
+    border-radius: 5px;
+    position: fixed;
+    top: 95px;
+    left: 725px;
+    transition
+}
+
+.first-animate {
+    opacity: 100%;
+}
+
+.two {
+    opacity: 0;
+    width: 90px;
+    left: 910px;
+}
+
+.second {
+  opacity: 1;
+}
+*/
+
+/* .myID {
+    background-color: #000000;
+    height: 1px;
+    border: 0.5pt solid black;
+    border-radius: 5px;
+    position: fixed;
+    top: 95px;
+    transition: all 1s;
+/*    transform: scaleX(0.6);*/
+/*    transform-origin: 470px;*/
+/*    transition: transform 300ms ease-in-out;*/
+
+/*@keyframes myframes {*/
+/*
+    0% {
+        width: 145px;
+        left: 725px;
+        opacity: 0%
+    }
+    
+    20% {
+        width: 145px;
+        left: 725px;
+        opacity 100%;
+    }
+    
+    40% {
+        width: 90px;
+        left: 910px;
+        opacity: 100%
+    }
+    
+    60% {
+        width: 125px;
+        left: 1040px;
+        opacity: 100%;
+    }
+    
+    80% {
+        width: 80px;
+        left: 1190px;
+        opacity: 100%;
+    }
+    
+    100% {
+        width: 80px;
+        left: 1300px;
+        opacity: 100%;
+    }
+}*/
