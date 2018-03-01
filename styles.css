@@ -581,15 +581,13 @@ nav {
     
     #famdetails img.rightimg {
         margin: 0 auto;
-        margin-top: -20%;
+        margin-top: -10%;
     }
-/*
     
     #conclusion img.leftimg {
         margin: 0 auto;
-        margin-top: -100px;
+        margin-top: -130px;
     }
-*/
 }
 
 @media screen and (max-width: 401px) { 
