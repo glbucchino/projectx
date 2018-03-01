@@ -459,14 +459,37 @@ nav {
     grid-template-rows: 1fr 1fr;
 }
     
+    div#Early {
+        padding-right: 0;
+    }
+    
+    div#Navy2 {
+        padding-right: 0;
+        padding-bottom: 20px;
+    }
+    
+    div#moremonte {
+        padding-right: 0;
+        padding-bottom: 50px;
+    }
+    
+    div#famdetails {
+        padding-right: 0;
+        padding-bottom: 50px;
+    }
+    
+    div#conclusion {
+        padding-right: 0;
+    }
+    
     #early p.left {
         margin: 0 auto;
         height: 100%
     }
     
     #early img.rightimg {
-        margin-left: 0;
-        margin-top: -100px;
+        margin: 0 auto;
+        margin-top: -50%;
         margin-bottom: 100px;
     }
     
@@ -477,8 +500,8 @@ nav {
     
     #Navy2 img.leftimg {
         grid-row-start: 1;
+        margin: 0 auto;
         margin-top: -40px;
-        margin-left: 0;
         margin-bottom: 40px
     }
     
@@ -500,8 +523,10 @@ nav {
     }
     
     #moremonte img.leftimg {
+        padding-top: 50px;
         grid-row-start: 2;
-        margin: 0;
+        margin: 0 auto;
+        margin-top: -30%;
     }
     
     #fam {
@@ -515,8 +540,9 @@ nav {
     }
     
     #famdetails img.rightimg {
+        padding-top: 50px;
         margin: 0 auto;
-        margin-top: -30px;
+        margin-top: -40%;
     }
     
     #conclusion p.right {
@@ -526,12 +552,45 @@ nav {
     }
     
     #conclusion img.leftimg {
+        padding-top: 50px;
         margin: 0 auto;
-        margin-top: -100px;
+        margin-top: -50%;
     }
     
 }
 
+@media screen and (max-width: 540px) {
+    #moremonte img.leftimg {
+        margin-top: -20%;
+    }
+}
+@media screen and (max-width: 490px) {
+    
+    #early img.rightimg {
+        margin-left: 0;
+        margin-top: -100px;
+        margin-bottom: 100px;
+    }
+    
+/*
+    #moremonte img.leftimg {
+        grid-row-start: 2;
+        margin: 0;
+    }
+*/
+    
+    #famdetails img.rightimg {
+        margin: 0 auto;
+        margin-top: -20%;
+    }
+/*
+    
+    #conclusion img.leftimg {
+        margin: 0 auto;
+        margin-top: -100px;
+    }
+*/
+}
 
 @media screen and (max-width: 401px) { 
     h1 {
