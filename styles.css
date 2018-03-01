@@ -582,11 +582,13 @@ nav {
     #famdetails img.rightimg {
         margin: 0 auto;
         margin-top: -10%;
+        padding-top: 10px;
     }
     
     #conclusion img.leftimg {
         margin: 0 auto;
         margin-top: -130px;
+        padding-top: 30px;
     }
 }
 
